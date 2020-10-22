@@ -177,14 +177,14 @@ And some additional, less used options:
   + Sub-lists are made by indenting 2 spaces:
     - Marker character change forces new list start:
       * Ac tristique libero volutpat at
-      + Facilisis in pretium nisl aliquet
+      + Facilisis in pretium nisl aliquet. This is a very long list item that will surely wrap onto the next line.
       - Nulla volutpat aliquam velit
   + Very easy!
 
   Ordered
 
   1. Lorem ipsum dolor sit amet
-  2. Consectetur adipiscing elit
+  2. Consectetur adipiscing elit. This is a very long list item that will surely wrap onto the next line.
   3. Integer molestie lorem at massa
 
   Start numbering with offset:
