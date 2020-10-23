@@ -72,7 +72,6 @@ export const styles = {
   // @pseudo class, does not have a unique render rule
   bullet_list_content: {
     flex: 1,
-    flexWrap: 'wrap',
   },
   // @pseudo class, does not have a unique render rule
   ordered_list_icon: {
@@ -82,7 +81,6 @@ export const styles = {
   // @pseudo class, does not have a unique render rule
   ordered_list_content: {
     flex: 1,
-    flexWrap: 'wrap',
   },
 
   // Code
