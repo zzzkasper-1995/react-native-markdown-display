@@ -301,7 +301,7 @@ const renderRules = {
 
   // Text Output
   text: (node, children, parent, styles, inheritedStyles = {}) => (
-    <Text key={node.key} style={[inheritedStyles, styles.text]}>
+    <Text key={node.key} style={[styles.text, inheritedStyles]}>
       {node.content}
     </Text>
   ),
