@@ -248,6 +248,7 @@ const renderRules = {
     <Text
       key={node.key}
       style={styles.link}
+      suppressHighlighting={true}
       onPress={() => openUrl(node.attributes.href, onLinkPress)}>
       {children}
     </Text>
